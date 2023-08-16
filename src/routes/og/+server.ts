@@ -5,7 +5,7 @@ const template = `
  <div tw="bg-gray-50 flex w-full h-full items-center justify-center">
     <div tw="flex flex-col md:flex-row w-full py-12 px-4 md:items-center justify-between p-8">
       <h2 tw="flex flex-col text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 text-left">
-        <span>Ready to dive in?</span>
+        <span>Ready to nut in?</span>
         <span tw="text-indigo-600">Start your free trial today.</span>
       </h2>
       <div tw="mt-8 flex md:mt-0">
@@ -31,7 +31,7 @@ export const GET: RequestHandler = async () => {
       {
         name: 'Inter Latin',
         data: fontData,
-        weight: 400
+        weight: 600
       }
     ]
   });
